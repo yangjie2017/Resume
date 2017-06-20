@@ -1,0 +1,269 @@
+body{
+	margin:0;
+	padding:0;
+    background: #EEF3EA;
+    font-size: 13px;
+}
+.content {
+    width: 680px;
+    height: 930px;
+    margin: 0 auto;
+}
+.content .left {
+    background-color: #CD922E;
+    float: left;
+    width: 18px;
+	height: 930px;
+}
+/*************个人信息部分************/
+.content .middle {
+    background-color: #2E2F31;
+    float: left;
+    width: 230px;
+    height: 930px;
+    position: relative;
+}
+/*头像*/
+.my_photo_o{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    background: #CD922E;
+    margin-top: 40px;
+    margin-left: 35px;
+    border-radius: 50%;
+}
+.my_photo_i{
+    width: 145px;
+    height: 145px;
+    position: absolute;
+    background: #2E2F31;
+    margin-top: 9px;
+    margin-left: 8px;
+    border-radius: 50%;
+}
+.my_photo{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    background: #CD922E;
+    margin-top: 8px;
+    margin-left: 8px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.my_photo img{
+    height: 100%;
+    width: 100%;
+}
+/*名字、职业*/
+.my_name{
+    position: absolute;
+    width: 210px;
+    height: 120px;
+    margin-top: 250px;
+    margin-left: 10px;
+    text-align: center;
+    border-top: 1px solid #3C3C3C;    
+}
+
+.m_name{
+    color: #EFEFEF;
+    font-weight: bold;
+    font-size: 22px;
+}
+.m_line{
+    width: 130px;
+    height: 1px;
+    background: #CD922E;
+    margin:0 auto;
+}
+.m_position{
+    color: #E7E7E7;
+    font-size: 18px;
+}
+
+.content .right {
+    background-color: white;
+    color: black;
+    float: left;
+    width: 422px;		
+    height: 930px;
+}
+/*联系方式*/
+.my_info{
+    /*background: white; */
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    margin-top: 400px;
+    margin-left: 10px;
+    /*text-align: center;*/
+    padding-left: 15px;
+    border-top: 1px solid #3C3C3C;
+}
+/*手机*/
+.phone{
+    margin-top: 15px;
+}
+.my_phone_background{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #CD922E;
+    display: inline-block;
+}
+.my_phone{
+    width: 28px;
+    height: 28px;
+    margin: 0 auto;
+    padding-top: 3px;
+}
+.my_phone img{
+    width: 100%;
+    height: 100%
+}
+.my_phone_num{
+    color: #EFEFEF;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+/*邮箱*/
+.email{
+    margin-top: 15px;
+}
+.my_email_num{
+    color: #EFEFEF;
+    position: absolute;
+    top: 67px;
+    left: 60px;
+}
+/*地址*/
+.address{
+    margin-top: 15px;
+}
+.my_address_num{
+    color: #EFEFEF;
+    position: absolute;
+    top: 120px;
+    left: 60px;
+}
+
+/*语言*/
+.language{
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    margin-top: 565px;
+    margin-left: 10px;
+    padding-left: 15px;
+    border-top: 1px solid #3C3C3C;
+}
+.langu_photo{
+    margin-top: 10px;
+}
+.my_background{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #CD922E;
+    display: inline-block;
+}
+.my_language{
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    padding-top: 3px;    
+}
+.my_language img{
+    width: 100%;
+    height: 100%
+}
+.langu_info{
+    position: absolute;
+    top: 25px;
+    left: 80px;  
+    color: #EFEFEF;
+    font-weight: bold;
+    font-size: 22px;
+}
+.chinese{
+    color: #EFEFEF;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.english{
+    color: #EFEFEF;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.proficiency{
+    display: inline-block;
+}
+.yuan{
+    margin-left:5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+    display: inline-block;
+}
+
+/*技能*/
+.skills{
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    margin-top: 705px;
+    margin-left: 10px;
+    padding-left: 15px;
+    border-top: 1px solid #3C3C3C;
+}
+
+.noselect{
+    background: #CD922E;
+}
+
+/*自我评价*/
+.evaluation{
+    margin-top: 60px;
+    margin-left: 25px;
+}
+.evaluation_info{
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 8px;
+}
+.evaluation_conent{
+    position: absolute;
+    width: 350px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.e_content{
+    margin-top: 10px;
+    text-indent: 29px;
+}
+/*教育*/
+.education{
+    margin-top: 150px;
+    margin-left: 25px;
+}
+.scname{
+    margin-top: 15px;
+}
+.school_name{
+    font-size: 16px;
+    font-weight: bold;
+}
+.school_time{
+    margin-left: 15px;
+}
+/*工作经历*/
+.workExperience{
+    margin-top: 230px;
+    margin-left: 25px;
+}
